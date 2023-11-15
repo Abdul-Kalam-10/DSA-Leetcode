@@ -1,8 +1,8 @@
 class Solution {
     public List<List<String>> groupAnagrams(String[] strs) {
-        List<List<String>> result = new ArrayList<>();
+        List<List<String>> result = new ArrayList<>(); //create array list
 
-         Map<String,List<String>> map = new HashMap<>();
+         Map<String,List<String>> map = new HashMap<>(); //Map is created
 
          for(String str : strs){  //"eat"
 
