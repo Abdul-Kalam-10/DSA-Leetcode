@@ -3,7 +3,7 @@ class Solution {
         int start = 1;
         int end = x;
         while(start <= end){
-            int mid = (start + end)/2;
+            int mid = (start + end) /2;
             if(mid <= x/mid){
                 start = mid + 1;
             }
