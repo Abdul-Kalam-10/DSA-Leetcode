@@ -13,7 +13,7 @@ class Solution {
                 curr.next = curr.next.next;  //skip 1 node
             }
             else{
-                curr = curr.next;  //normal iteration
+                curr = curr.next;  //.next 1x
             }
 
         }
