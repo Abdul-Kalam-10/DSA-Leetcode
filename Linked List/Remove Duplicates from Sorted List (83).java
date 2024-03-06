@@ -13,6 +13,6 @@ class Solution {
             }
         }
 
-        return head; //return head with remove duplicate node
+        return head; //return head after removing duplicate nodes
     }
 }
